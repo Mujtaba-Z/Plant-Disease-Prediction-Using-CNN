@@ -24,6 +24,9 @@ This project trains on a set of images, and so naturally, the data set size is q
 5. Uploaded are three images by which you can test your model: ```test_apple_black_rot.JPG```, ```test_blueberry_healthy.jpg```, ```test_potato_early_blight.jpg```. Download these to the same directory
 
 ## Downloading the model
-The model is quite large in size, hence I was not able to upload mine to this repo. Worry not, if you've followed the above steps, then running **model_creation.py** will create and save the model as an .h5 file.
+The model is quite large in size, hence I was not able to upload mine to this repo. Worry not, if you've followed the above steps, then running **model_creation.py** will create and save the model as a .h5 file. Just clone this repository.
 
 ## Results
+![Model Accuracy](model%20accuracy.png)
+![Model Loss](model%20loss.png)
+The final model had a validation accuracy of **86.76%**
