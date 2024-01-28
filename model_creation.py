@@ -15,12 +15,6 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras import layers, models
-# from keras.applications import ImageDataGenerator
-# from keras import layers, models
-
-kaggle_credentials = json.load(open("kaggle.json"))
-os.environ['KAGGLE_USERNAME'] = kaggle_credentials["username"]
-os.environ['KAGGLE_KEY'] = kaggle_credentials["key"]
 
 base_dir = 'plantvillage dataset/color'
 
